@@ -1,7 +1,7 @@
 # Repositório com algumas automações criadas com a ferramenta [Uipath](https://www.uipath.com/)
 
 
-- ## RPA1_Login: Esse RPA simples acessa o um determinado site e efetua o login na plataforma.
+- ## RPA1_Login: Esse RPA simples acessa um determinado site e efetua o login na plataforma.
 
 **Descrição** 
 
