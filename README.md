@@ -1,4 +1,4 @@
-# Repositórios com algumas automações criadas com a ferramenta [Uipath](https://www.uipath.com/)
+# Repositório com algumas automações criadas com a ferramenta [Uipath](https://www.uipath.com/)
 
 - ## RPA1_desafioReframework: RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/):
 Descrição 
