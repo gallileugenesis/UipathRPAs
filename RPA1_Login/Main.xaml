@@ -1,0 +1,158 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1240,1270" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="476,1205" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" sap2010:Annotation.AnnotationText="Abre o navegador&#xD;&#xA;" AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Automation Anywhere Labs - Login" sap:VirtualizedContainerService.HintSize="434,1113" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="a2cd5950-531a-4fc4-8c11-9be97c8570dd" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="376,855" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="login">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">user@automationanywhere.com</Literal>
+                </Variable.Default>
+              </Variable>
+              <Variable x:TypeArguments="x:String" Name="senha">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">Automation123</Literal>
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="Digitar o email" ClickBeforeMode="Single" DisplayName="Type Into 'Email address'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,247" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a2cd5950-531a-4fc4-8c11-9be97c8570dd" Text="[login]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://s3-us-west-2.amazonaws.com/aai-devportal-media/wp-content/uploads/2021/06/29093713/AutomationAnywhereLabs-Login.html" DesignTimeRectangle="820, 420, 400, 38" ElementType="InputBox" FriendlyName="'INPUT inputEmail'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='form-control' aaname='' /&gt;" Guid="3d127798-4ed6-4b4e-aab6-bf47461ff0fd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZQAAAAqCAYAAACUcq0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVHhe7di9agJRAITRvP/DBYtgkWBhYSWCjcFmuWGCu2j+MDLlOTDF7t7+4+7TAIACQQGg4iYop/fz2Gx3Y7V+G88vr2ZmZt+WRqQVaca1JSj5kEP7w3FM03R5CwC30oi0Is24jsoSlNQmBwDgHmlG2jFbgpLSuJkAcK80I+2YLUHJfzEA+I/rdggKAA8TFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKj4MSir9duYpunyBAB/SzPSjtkSlM12N/aH4+UJAP6WZqQdsyUop/fzZ2lywE0FgN+kEWlFmpF2zJagRD6kNjmU/2JmZmZfl0akFdcxiZugAMCjBAWAgjE+AFHkcafCilb9AAAAAElFTkSuQmCC" InformativeScreenshot="f5a6655359317b75cd6caacdedff9574.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Anywhere Labs - Login' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="820, 388, 97, 24" ElementType="Text" FriendlyName="'Email address'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email address' check:innerText='Email address' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGUAAAAcCAYAAAB4UXHGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIkSURBVGhD7ZVNjsIwDIXnKixmwbEQC07SRbkJUo9CxTGQyiEyifNT23GmBabCI/lJ0QykeXn2F9IvZ1Ing6JQBkWhDIpCGRSFMigKZVAUyqAolAooY793u+PgJvj0cJfj3h2GB3z6O630vZ7d7vvsxvTxEyJQpuHkA/kGkXFyl3t6YCMZFKoaSmnOp2RQDArXf4MC10x/i3/T9RaLjAXT75DugzukORhsj+wbtaZ5N9dhP6mJbM/DcBN9cS3gw6Dwmuf1LAPv2281wx5ortQe9TwUb9Jd0xfInH5H30Njj5uWAKIgz0KZhjPz9+tx7tSQksmrbmp7XQWFeWUglX/x4vO+pj7NwR64P/7ZRSgQCg0UGjYmBnWD1zWVwqe+y+srNU43FfOtmpMkeWFwXpCf+2O/lncQ85f00vU1S2qg3FRYuwr2Oij1AcqFxvX0ZAcx39AcqdYVgKtayphBlGcahyPMtWrcHkq+EtC6934p6S7HOUkj4/qtobTzYcU9ZTjzO4l7bQ5F8nwLCmsaSIDSakLxhTX1FQPZFqAs9amSlDlJ8tr+l8ID5V/Oq1Cq+zqfOLQH7Cm8iMmpTPBwvTnbApT8HM2IXth+vsNzuAf+f5xrHRQIRUfe/CUoXrkhMHyAkQV5CooXzemLlU5iApNHd21nLc+FTMxLhBJUAOaBDko1h7KxXBxIEIFi0iGDolAGRaEMikIZFIUyKAplUBTKoKiTcz8F02UceIu4awAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="Digitar a senha " ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,247" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="a2cd5950-531a-4fc4-8c11-9be97c8570dd" Text="[senha]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://s3-us-west-2.amazonaws.com/aai-devportal-media/wp-content/uploads/2021/06/29093713/AutomationAnywhereLabs-Login.html" DesignTimeRectangle="820, 506, 400, 38" ElementType="InputBoxPassword" FriendlyName="'INPUT inputPassword'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='form-control' aaname='Password' /&gt;" Guid="2e6b4e54-ba19-4536-a5fd-655ae9ca0703" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZQAAAAqCAYAAACUcq0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVHhe7di9agJRAITRvP/DBYtgkWBhYSWCjcFmuWGCu2j+MDLlOTDF7t7+4+7TAIACQQGg4iYop/fz2Gx3Y7V+G88vr2ZmZt+WRqQVaca1JSj5kEP7w3FM03R5CwC30oi0Is24jsoSlNQmBwDgHmlG2jFbgpLSuJkAcK80I+2YLUHJfzEA+I/rdggKAA8TFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKgQFAAqBAWACkEBoEJQAKj4MSir9duYpunyBAB/SzPSjtkSlM12N/aH4+UJAP6WZqQdsyUop/fzZ2lywE0FgN+kEWlFmpF2zJagRD6kNjmU/2JmZmZfl0akFdcxiZugAMCjBAWAgjE+AFHkcafCilb9AAAAAElFTkSuQmCC" InformativeScreenshot="c344decda2acfd2d6944b145e7d8da56.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Anywhere Labs - Login' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="820, 474, 66, 24" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAcCAYAAADcO8kVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHhSURBVFhH7ZRNrgIxCMffVVy4eMcyLjzJLGZuYjJH0XgMEz1EHxRaoC1RZ/Vi+CeNDgUKv378pNBQAcZRgHEUYBwFGEcBxlGAcRRgHAUY0HX+Tbv5xl8kA+axntJuD056HNf04Plv1XtgDIhnOh+/H84GMKD7mg77Uzrf+fsLtQ1MuqUJrtR0oa+cRF21Yi/y5/n01TmC3RfFfsaGNejNaXM5dUCOUs9hffIM9VNji8/HYPSJgf9TXQB0WSC5FNzFw7wBqhZ/rAvF5RxLupKZ18Oilc34cGO6EY6R5mWDLDCK1X655jYf6AWYQRFGNO81L6Id1gWJMEcDdwagnY3y9jWSWnuupfHzYt87MQhCja6ZuqMy6q7UOX3sWXnXcU6dhCwLDYvEfPhLNprX8IeA89qSe9SsFzvyfeONEeUEpml7YqoqhB6QwJcmZF3Mx3bMgbZBw/8MzAiCAybr1fVRcaUphFELZEjG5tfY2j0wfSw/5NvB9I3mhVSDV3gbyo5Zf/g/67wtUC7OsVm4FGsa4SusN2gEpvjpfLnnNh/oo6tUEtNVwEJsgwVUGVKANFmGbgJFBWqwxTZ4rwqcOnqfIRhU0wPWOPI1YEKiAOMowDgKMI4CjKMA4yjAOAowQ6X0B7TztHU8GCHMAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick sap2010:Annotation.AnnotationText="Clicar em login" ClickType="Single" DisplayName="Click 'Sign in'" sap:VirtualizedContainerService.HintSize="334,187" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2cd5950-531a-4fc4-8c11-9be97c8570dd" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://s3-us-west-2.amazonaws.com/aai-devportal-media/wp-content/uploads/2021/06/29093713/AutomationAnywhereLabs-Login.html" DesignTimeRectangle="820, 560, 400, 48" ElementType="Button" FriendlyName="'Sign in'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2' aaname='Sign in' check:innerText='SIGN IN' /&gt;" Guid="19354ed3-ca15-4041-bc94-7ec7aa33afc3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZQAAAA0CAYAAACtrs76AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATESURBVHhe7d29btxGGIXhGAggGDbS5R5S555yBSqNKLCKdAHcpHOVG3Dl0q5SOnCnzoULN0mhKkg5nhfS0N8Ohz+7SyM72vcAD2DtUku5+Q7IIbnfJGOMMWaDWCjGGGM2yaaF8vE2pT/ep/TTq5R+/D2l739N6eIqpUfP8o4kSf8LZjCzmJnMbGZGM6uZ2Vvm6EL559+UfvszpR9epPT4l5S+ux7/ZyRJp4VZzcxmdjPDmeXH5uBCodloOZrvyfPxHytJ6gMznFnOTD/mqOWgQrl+e7fzb38e/2GSpD4x05ntzPhDslehvPt0d3jkaS1JeriY8cx6Zv4+WV0oLODQXK2dS5IeHmY+s39tVhUKCzZPXSeRpLPD7KcD1mSxUPggT3FJ0vmiA9aUymyhcKjjkYkkiS5YOv01WSgsxrhmIkkq6IS5hfrJQmGFv/WBkqTzRTdMpVkoXIPsuokkqUY3TN2nMioU7pL0VJckaQod0bqjflQo3HrvHfCSpCl0BF1RZ6dQeDiYRyeSpCV0Rf1AyZ1C4TpjH/QoSVpCV9T3puwUild2SZLWqq/4GgqFBRaejd/6JUmSanRGXJwfCoU7IL1UWJK0Fp0R754fCoUV+9YvSCfndUqjKxb/S+kybHNz//KbvO3O72Yv/75/Mya/Fre5/HD/es7NX7vvvcn7ar1ea26X/11ym/cRty9/V/26dMri1V5DofA9w62NpZPSKhOyslDK66PMFEr92VsVCnkZtrdQ1CO6o2QoFL68vrWxdEqGQV8P+TyMlwqlDHgyKpq5QsmJQ37LQolFZqGoR3RHyVAoF1fjDaVTM3cqKhoVShjkrdNgtWE/ecjXn7VJoeT3bqr3LRT1iO4oGQrFGxrVi/q0VWuw1yXQOrKpPycWTSyUWAL87laFcpn3V07fcerLQlGP6I4SC0VdKsN3CIM/vL9poeSfYzlsVij551giFop61CwUT3mpR8Pgz4mFUBfK3Cmv0bZZXSjxYoDbDQuF18r+y+daKOpJ85SXi/LqAYN+Z0CHQT9bKOE1Eq+uWlUo8bX7bFUoseyIhaKeNBflvWxYPaiH+pA4oLNWSdSDu85SoaCUBNmsULJ4Cs9CUU+alw17Y6O60CqFajijWSjVezF1OUwVSjwi2rJQUP4uC0U9ad7Y6KNXJEn7mHz0ig+HlCTtY/LhkMTH10uS1pp8fD3xC7YkSWssfsGWXwEsSVqDrpj9CmDCij1fQN/6AEmS6Ih4dVfJqFBYYPEoRZI0hY6Ii/Elo0Ih12+9hFiSNEY30BGtNAuFeMWXJKlWX9kVM1ko7z556kuS9AWdQDdMZbJQCHdAPvUyYkk6e3RBvCu+ldlCIVxn7HqKJJ0vOqC+56SVxUIhfJBHKpJ0fpj9a8qErCoUwqGOayqSdD6Y+UunuWJWFwphMYYVfk+BSdLDxYxn1s8twLeyV6GUcA0yzeUd9ZL0cDDTme1T95ks5aBCIdwlya337NwHSkpSv5jhzHJmeusO+LU5uFBKeDgYCzYcHvFsfE+HSdLpY1Yzs5ndzPD6QY+H5OhCiaHZWMCh5fieYb68/uLqrvla/yFJ0tfHDGYWM5OZzcxoZvUxRyOtbFooxhhjzjcWijHGmA2S0me1ekUw/Dd4GwAAAABJRU5ErkJggg==" InformativeScreenshot="3746e1104df0870edcde32933818ac88.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Anywhere Labs - Login' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="1dbcc78c909ce0f328a099a67ee6c949.png" Selector="&lt;html app='chrome.exe' title='Automation Anywhere Labs - Login' /&gt;" Url="https://s3-us-west-2.amazonaws.com/aai-devportal-media/wp-content/uploads/2021/06/29093713/AutomationAnywhereLabs-Login.html" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
