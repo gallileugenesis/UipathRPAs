@@ -8419,11 +8419,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "RPA2_Login",
-      "projectName": "RPA2_Login",
-      "projectPath": "C:\\Users\\gallileu.sousa\\Documents\\UiPath\\Treinamento\\RPA2_Login\\.local",
+      "projectUniqueName": "RPA2_FindYourUnicornName",
+      "projectName": "RPA2_FindYourUnicornName",
+      "projectPath": "C:\\Users\\gallileu.sousa\\Documents\\UiPath\\Treinamento\\RPA2_FindYourUnicornName\\.local",
       "packagesPath": "C:\\Users\\gallileu.sousa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gallileu.sousa\\Documents\\UiPath\\Treinamento\\RPA2_Login\\.local"
+      "outputPath": "C:\\Users\\gallileu.sousa\\Documents\\UiPath\\Treinamento\\RPA2_FindYourUnicornName\\.local"
     },
     "frameworks": {
       "net461": {

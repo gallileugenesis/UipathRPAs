@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XZWc4aadZIPss+/KJHcOMrutazEnWVGHwWK/2qQYvXb55ATt71TfRsAPrswJlfHOx+IFeV7ZVVM1SMMIn05DmQ==",
+  "dgSpecHash": "KKOPuXsfDLE8lNuA728eonzs0bxLIm+Q2FSYEKnv2h+HEc+fDVgo36CrQuJhxNz2n4W7c3SaquoC10kx+6Zq6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gallileu.sousa\\Documents\\UiPath\\Treinamento\\Aula 01\\desafioReframework\\.local\\",
+  "projectFilePath": "C:\\Users\\gallileu.sousa\\Documents\\UiPath\\Treinamento\\RPA2_FindYourUnicornName\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\gallileu.sousa\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\gallileu.sousa\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
