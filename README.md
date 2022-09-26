@@ -1,7 +1,7 @@
 # Repositório com algumas automações criadas com a ferramenta [Uipath](https://www.uipath.com/)
 
 
-- ## RPA1_Login: Esse RPA simples acessa um determinado site e efetua o login na plataforma.
+- ## RPA1_Login - Esse RPA simples acessa um determinado site e efetua o login na plataforma.
 
 **Descrição** 
 
@@ -15,7 +15,19 @@
   
 5 - Fechar o navegador. 
 
-- ## RPA2_desafioReframework: RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/):
+- ## RPA2_FindYourUnicornName: Esse RPA entra em um site [Find Your Unicorn Name](https://www.rpasamples.com/findunicornname), digita o nome "JOÃO" no campo "What is your name?", escolhe a opoção "October" no campo "What month were you born?".
+
+**Descrição** 
+
+1 – Entrar no site [Find Your Unicorn Name](https://www.rpasamples.com/findunicornname)
+
+2 – Digitar o nome "JOÃO" no campo "What is your name?", escolhe a opoção "October" no campo "What month were you born?".
+
+3 – Escolher a opoção "October" no campo "What month were you born?".
+
+4 – Clicar em "Unicorn Name"
+
+- ## RPA3_desafioReframework - RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/):
 
 **Descrição** 
 
