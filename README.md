@@ -15,8 +15,7 @@
   
 5 - Fechar o navegador. 
 
-- ## RPA2_FindYourUnicornName: Esse RPA entra em um site [Find Your Unicorn Name](https://www.rpasamples.com/findunicornname), digita o nome "JOÃO" no campo "What is your name?", escolhe a opoção "October" no campo "What month were you born?".
-
+- ## RPA2_FindYourUnicornName: RPA para [Find Your Unicorn Name](https://www.rpasamples.com/findunicornname).
 **Descrição** 
 
 1 – Entrar no site [Find Your Unicorn Name](https://www.rpasamples.com/findunicornname)
