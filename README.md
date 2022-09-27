@@ -26,7 +26,21 @@
 
 4 – Clicar em "Unicorn Name"
 
-- ## RPA3_desafioReframework - RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/):
+- ## RPA3_Calculadora - RPA que simula uma calculadora:
+
+**Descrição** 
+
+1 – Receber o primeiro valor 
+
+2 – Receber o segundo valor
+
+3 - Tratamento dos números (converter todos para inteiros)
+
+4 – Efetuar a soma
+
+5 – Exibir o resultado da soma 
+
+- ## RPA4_desafioReframework - RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/):
 
 **Descrição** 
 
