@@ -5,7 +5,7 @@
 
 **Descrição** 
 
-1 – Acessar o site [Automation Anywhere Getting Started Tutorials - Login](https://s3-us-west-2.amazonaws.com/aai-devportal-media/wp-content/uploads/2021/06/29093713/AutomationAnywhereLabs-Login.html):
+1 – Acessar o site [Automation Anywhere Getting Started Tutorials - Login](https://s3-us-west-2.amazonaws.com/aai-devportal-media/wp-content/uploads/2021/06/29093713/AutomationAnywhereLabs-Login.html).
 
 2 – Digitar o email de acesso **user@automationanywhere.com** no campo devido.
 
@@ -26,7 +26,7 @@
 
 4 – Clicar em "Unicorn Name"
 
-- ## RPA3_Calculadora - RPA que simula uma calculadora:
+- ## RPA3_Calculadora - RPA que simula uma calculadora.
 
 **Descrição** 
 
@@ -40,7 +40,19 @@
 
 5 – Exibir o resultado da soma 
 
-- ## RPA4_desafioReframework - RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/):
+- ## RPA4_StateMachinePagarBoleto - RPA construido com base nos conceitos de [State Machines](https://docs.uipath.com/studio/docs/state-machines) e que efetua o pagamento de um boleto. 
+
+**Descrição** 
+
+1 – Receber o saldo da conta.
+
+2 – Receber o valro do boleto.
+
+3 – Verificar se o saldo é suficiente para efetuar o pagamento.
+
+4 – Caso seja suficiente, efetuar o pagamento, atualizar o saldo e reeinicar o processo para um novo pagamento. Caso contrário, encerrar o processo. 
+
+- ## RPA5_desafioReframework - RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/).
 
 **Descrição** 
 
@@ -51,3 +63,4 @@
 3 – Digitar as informações
 
 4 – Enviar
+
