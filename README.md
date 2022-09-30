@@ -40,7 +40,19 @@
 
 5 – Exibir o resultado da soma 
 
-- ## RPA4_StateMachinePagarBoleto - RPA construido com base nos conceitos de [State Machines](https://docs.uipath.com/studio/docs/state-machines) e que efetua o pagamento de um boleto. 
+- ## RPA4_desafioReframework - RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/).
+
+**Descrição** 
+
+1 – Baixar a Planilha em seu computador
+
+2 – Carregar uma fila com as informações da planilha
+
+3 – Digitar as informações
+
+4 – Enviar
+
+- ## RPA5_StateMachinePagarBoleto - RPA construido com base nos conceitos de [State Machines](https://docs.uipath.com/studio/docs/state-machines) e que efetua o pagamento de um boleto. 
 
 **Descrição** 
 
@@ -52,15 +64,5 @@
 
 4 – Caso seja suficiente, efetuar o pagamento, atualizar o saldo e reeinicar o processo para um novo pagamento. Caso contrário, encerrar o processo. 
 
-- ## RPA5_desafioReframework - RPA para o [Desafio Reframework](https://mestrerpa.com.br/desafio-reframework/).
 
-**Descrição** 
-
-1 – Baixar a Planilha em seu computador
-
-2 – Carregar uma fila com as informações da planilha
-
-3 – Digitar as informações
-
-4 – Enviar
 
